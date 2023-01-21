@@ -1,0 +1,43 @@
+table{
+  
+  background-color: rgb(189, 119, 40);
+transition: 0.3s;
+border-radius: 10%;
+  
+}
+
+div:has(>table){
+ 
+
+border-radius: 10% !important;
+  
+}
+
+body{
+  background-color: rgb(128, 119, 0);
+}
+
+tr, td{
+  transition: 0.3s;
+}
+
+
+
+input{
+  background-color: rgb(255, 149, 0);
+  transition: 0.3s;
+}
+
+input:hover{
+  background-color: rgb(177, 142, 38);
+}
+
+tr:hover{
+  background-color: red;
+}
+
+td:hover{
+  background-color: rgb(255, 162, 0);
+
+} 
+
